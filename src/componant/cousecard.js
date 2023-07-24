@@ -5,7 +5,7 @@ function CourseCard({ title, instructor, duration, image }) {
  
  
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg py-20 px-10 gap-2  border-inherit grid">
+    <div className="max-w-sm rounded overflow-hidden shadow-lg py-10 px-10 my-5  border-inherit grid">
       <img className="w-full" src={image} alt={title} />
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2">{title}</div>

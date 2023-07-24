@@ -14,6 +14,8 @@ import SearchBar from './componant/serchbar';
 import Couseenrol from './componant/couse-enrole'
 import Cosepricecard from './componant/couse-price-card'
 import FeedbackComponent from './componant/Feed-back';
+import ContactUsPage from './page/ContactU-spage';
+import TeachersPage from './page/Teachers-page';
 
 
 function App() {
@@ -32,6 +34,8 @@ function App() {
       <Route path="/couse-enrol" element={<Couseenrol></Couseenrol>}></Route>
       <Route path="/couse-price-card" element={<Cosepricecard></Cosepricecard>}></Route>
       <Route path="/entere-feedback" element={<FeedbackComponent></FeedbackComponent>}></Route>
+      <Route path="/contct-us" element={<ContactUsPage></ContactUsPage>}></Route>
+      <Route path="/Teachers-page" element={<TeachersPage></TeachersPage>}></Route>
 
       </Routes>
    

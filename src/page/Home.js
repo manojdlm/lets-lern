@@ -12,10 +12,10 @@ function Home() {
       <div>
      <Header></Header>
      <div className=' my-10 '>
-        <h1 className=' font-extrabold  text-center text-gray-900  leading-none  text-5xl pt-10 pb-5 '>The best way to learn</h1>
-        <p className=' text-center p-2  px-56'>Go step-by-step through our unique courses. Assess what you've learned with in-lesson quizzes, 
+        <h1 className='  font-Archivo text-center text-gray-900  leading-none  text-5xl pt-10 pb-5 '>The best way to learn</h1>
+        <p className=' text-center p-2 font-Archivo px-56'>Go step-by-step through our unique courses. Assess what you've learned with in-lesson quizzes, 
             and gradually advance your skills with practice.</p>
-        <p className=' text-center py-2'>Courses designed by experts with real-world practice. Join our global community. It's free.</p>
+        <p className=' text-center font-Archivo py-2'>Courses designed by experts with real-world practice. Join our global community. It's free.</p>
         <button className=' block mx-auto  bg-blue-500  py-2 px-2 my-4   text-white rounded-md'>Start learning now!</button>
      </div>
 
@@ -25,18 +25,18 @@ function Home() {
             <h1 className=' text-3xl pb-5  font-bold'>
               About Us
             </h1>
-            <h2 className='text-2xl font-semibold pb-2'>
+            <h2 className='text-2xl font-semibold font-Archivo pb-2'>
             Learn from 
             </h2>
-            <h2 className='text-2xl font-semibold pb-2'>
+            <h2 className='text-2xl font-semibold font-Archivo pb-2'>
              Anywhere at anytime
             </h2>
-            <p className='   font-light font-rubik'>
+            <p className='  font-Archivo'>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor Lorem ipsum dolor sit amet consetetur sadipscing elitr. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor Lorem ipsum dolor sit amet consetetur sadipscing elitr. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
             sed diam nonumy eirmod tempor Lorem ipsum dolor sit amet consetetur sadipscing elitr.
             </p>
 
-            <p className=' mt-5 font-light font-rubik'>
+            <p className=' mt-5 font-Archivo'>
              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor Lorem ipsum dolor sit amet consetetur sadipscing elitr. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
             sed diam nonumy eirmod tempor Lorem ipsum dolor sit amet consetetur sadipscing elitr.
             </p>
