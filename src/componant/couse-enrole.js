@@ -1,9 +1,13 @@
 import React, { useState } from 'react';
 import Cosepricecard from './couse-price-card';
+import Header from './Header'
+import Footer from './Footer'
 
 function CourseEnrollment() {
 
   return (
+    <div>
+        <Header></Header>
     <div className=' mx-16 my-16'>
         <div className='grid grid-cols-2'>
             <div className=' col-1'>
@@ -38,6 +42,8 @@ function CourseEnrollment() {
             </div>
 
         </div>
+    </div>
+    <Footer></Footer>
     </div>
   );
 }

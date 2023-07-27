@@ -16,6 +16,9 @@ import Cosepricecard from './componant/couse-price-card'
 import FeedbackComponent from './componant/Feed-back';
 import ContactUsPage from './page/ContactU-spage';
 import TeachersPage from './page/Teachers-page';
+import StudentBoughtCoursesProfile from './page/StudentBoughtCoursesProfile';
+import UserCourseEnrollment from './page/UserCourseEnrollment';
+import Avalibility from './componant/Avalabilty';
 
 
 function App() {
@@ -36,6 +39,9 @@ function App() {
       <Route path="/entere-feedback" element={<FeedbackComponent></FeedbackComponent>}></Route>
       <Route path="/contct-us" element={<ContactUsPage></ContactUsPage>}></Route>
       <Route path="/Teachers-page" element={<TeachersPage></TeachersPage>}></Route>
+      <Route path="/Student-Bought-Courses-Profile" element={<StudentBoughtCoursesProfile></StudentBoughtCoursesProfile>}></Route>
+      <Route path="/User-Course-Enrollment" element={<UserCourseEnrollment></UserCourseEnrollment>}></Route>
+      <Route path="/Avalibility" element={<Avalibility></Avalibility>}></Route>
 
       </Routes>
    

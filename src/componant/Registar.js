@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Registerimg from '../images/Registar.png';
 import { FaGoogle, FaGithub } from 'react-icons/fa';
 import Header from './Header';
+import { Link } from 'react-router-dom';
 
 function Register() {
   const [fullName, setFullName] = useState('');
@@ -70,8 +71,9 @@ function Register() {
               className='rounded border border-black px-8 py-1'
             />
           </div>
+          <Link to="/user-profile">
           <button type="submit" className='px-4 py-1 mt-2 rounded-md bg-purple-500 text-gray-50'>Register</button>
-        
+          </Link>
           <div className='gap-2 py-4 pt-10'>
             <button onClick={handleGoogleLogin} className='px-2 py-2 border rounded border-black font-serif'>
               <FaGoogle className='w-20 h-6' /> Login with Google

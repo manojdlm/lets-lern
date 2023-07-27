@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import CoursDtils from '../componant/Course-Detils';
 import Header from '../componant/Header';
 import SearchBar from '../componant/serchbar';
+import Footer from '../componant/Footer';
 
 
 function CoursePage() {
@@ -17,6 +18,7 @@ function CoursePage() {
       <div>
         <CoursDtils />
       </div>
+        <Footer></Footer>
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Header from './Header';
 import Footer from './Footer';
+import { Link } from 'react-router-dom';
 
 function UserProfile() {
   const [firstName, setFirstName] = useState('John');
@@ -41,9 +42,12 @@ function UserProfile() {
     <div className="mx-20 my-20" >
       <h2 className="text-2xl font-extrabold  text-center my-10">User Profile</h2>
       <ul className='flex gap-4 '>
+        
         <li className=' font-normal border border-black px-1 py-2 rounded-md'>Profile</li>
         <li className='font-normal  border border-black px-1 py-2 rounded-md'>Settings</li>
+        <Link to="/Student-Bought-Courses-Profile">
         <li className='font-normal  border border-black px-1 py-2 rounded-md'>My Couse</li>
+        </Link>
       </ul>
       <form>
         <div className="my-4">
